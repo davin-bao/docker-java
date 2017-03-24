@@ -8,7 +8,7 @@ RUN set -xe \
 EXPOSE 80
 VOLUME ["/home/java"]
 
-# ADD run.sh /
-RUN chmod +x /home/java/run.sh
+ADD run.sh /
+RUN chmod +x /run.sh
 
-CMD ["/home/java/run.sh"]
+CMD ["/run.sh"]
