@@ -1,5 +1,5 @@
-# java-rms
-this is docker image for rms
+# docker-java
+this is docker image for java 8
 
 ## Usage
 
