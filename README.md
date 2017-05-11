@@ -7,10 +7,10 @@ sudo docker run -v /htdocs/java:/home/java -p 80:80 davin-bao/java-rms
 
 ## Volume structure
 
-java: RMS root
+root dir: /home/java
 
-main jar file: java/RMS.jar
+main jar file: /home/java/app.jar
 
-java/logs: java error logs
+error logs dir: /home/java/log
 
-java/run.sh: run file shell
+run command shell: /home/java/run.sh
