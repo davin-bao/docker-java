@@ -4,8 +4,7 @@ MAINTAINER Davin Bao <davin.bao@gmail.com>
 RUN set -xe \
     && mkdir -p /home/java \
     && mkdir -p /home/java/logs
-    
-EXPOSE 80
+
 VOLUME ["/home/java"]
 
 ADD run.sh /
