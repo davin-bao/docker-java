@@ -1,4 +1,5 @@
-FROM  anapsix/alpine-java:8
+FROM  java:8-jdk-alpine
+
 MAINTAINER Davin Bao <davin.bao@gmail.com>
 
 RUN set -xe \
